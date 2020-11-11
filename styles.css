@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: orange;
+  text-align: right;
+}
+
+.content {
+  display: flex;
+}
+
+.lcars-top-left {
+  margin-top: 20px;
+  border-top: 15px solid #cc6699;
+  border-left: 75px solid #cc6699;
+  border-top-left-radius: 110px;
+  padding: 20px;
+}
+
+.connection-vertical {
+  border-left: 75px solid peachpuff;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.connection-horizontal {
+}
+
+.first {
+  border-color: peachpuff;
+}
+
+.second {
+  border-color: lavender;
+}
+
+.left-bar {
+  background-color: orange;
+  /* border-left: 30px solid red; */
+  margin-right: 10px;
+  min-width: 80px;
+
+  border-radius: 50% 0 0 50%;
+  flex-grow: 1;
+}
+
+.center-bar {
+  flex-grow: 3;
+  background-color: orange;
+  min-width: 300px;
+}
+
+.logo {
+  flex-grow: 2;
+}
+
+.right-bar {
+  background-color: orange;
+  min-width: 80px;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.logo-bar {
+  display: flex;
+}
